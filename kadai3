@@ -1,0 +1,37 @@
+#!bin/sh
+
+a = $1
+b = $2
+
+if [$a -lt $n ];then
+  x = 'expr $a % $b'
+  while[ $x ! = 0 ]
+  do
+
+    a = $a
+    b = $x
+    X = 'exa = $1
+b = $2
+
+if [$a -lt $n ];then
+  x = 'expr $a % $b'
+  while[ $x ! = 0 ]
+  do
+
+    a = $a
+    b = $x
+    X = 'expr $a /% $b'
+  done
+  echo $b
+
+else
+  X = 'expr $a /% $b'
+  while[ $x ! = 0 ]
+  do
+    a = $a
+    b = $b
+    X = 'expr $a /% $n'
+  done
+  echo $b
+fi               
+~                           
